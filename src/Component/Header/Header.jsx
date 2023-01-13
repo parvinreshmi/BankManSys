@@ -3,19 +3,19 @@ import Menu from '../Menu/Menu';
 import Banner from '../Banner/Banner';
 
 
-const Header=()=>{
-    return(
-        <>
-        <div class="header_section">
-    <div class="header_left">
-      <Menu/>
-      <Banner/>
-    </div>
-    <div class="header_right">
-      <img src="images/banner-img.png" class="banner_img"/>
-    </div>
-  </div>
-        </>
-    );
+const Header = () => {
+  return (
+    <>
+      <div className="header_section">
+        <div className="header_left">
+          <Menu />
+          <Banner />
+        </div>
+        <div className="header_right">
+          <img src="images/banner-img.png" className="banner_img" />
+        </div>
+      </div>
+    </>
+  );
 }
 export default Header;

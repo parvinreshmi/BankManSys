@@ -8,15 +8,15 @@ import Footer from "../Component/Footer/Footer";
 
 
 
-const Index = ()=>{
-    return(
+const Index = () => {
+    return (
         <>
-        <Header/>
-        
-        <About/>
-        <Service/>
-        <Footer/>
-        
+            <Header />
+
+            <About />
+            <Service />
+            <Footer />
+
         </>
     )
 }
